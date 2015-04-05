@@ -1,0 +1,13 @@
+ .itemforsale {
+ 	width:40%; margin:60px auto; display:inline-block; }
+
+@media (max-width: 767px) {
+	 .itemforsale {
+	 	width: 80%; } }
+
+.logocover {
+	 	background-image: url("../images/honest-abe-logo.jpg");
+	 	background-position: 50% 0%;
+	 	background-size: cover;
+	 	background-repeat: no-repeat;
+	 	min-height: 500px;  }
