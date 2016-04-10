@@ -1,13 +1,57 @@
  .itemforsale {
- 	width:40%; margin:60px auto; display:inline-block; }
+ 	width:40%; margin:20px auto; display:inline-block; }
 
 @media (max-width: 767px) {
 	 .itemforsale {
 	 	width: 80%; } }
 
 .logocover {
-	 	background-image: url("../images/honest-abe-logo.jpg");
-	 	background-position: 50% 50%;
-	 	background-repeat: no-repeat;
-	 	width: 100%;
-  		height: 600px; }
+	background-image: url("../images/honest-abe-logo.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 100%;
+  height: 600px; }
+
+.dealimages {
+	max-width: 384px;
+ 	width: 100%;
+}
+
+a {
+ 	text-decoration: none;
+ 	color: #FF0013;
+}
+
+a .button{
+ 	text-decoration: none;
+ 	color: #FF0013;
+}
+
+.itemforsale h5 {
+	text-align:center; 
+	color:#333; 
+	margin:2px 0 12px 0; 
+	font-size:1.7rem; 
+	font-weight:500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.mt3 {
+	margin-top: 30px;
+}
+
+.mt5 {
+	margin-top: 50px;
+}
+
+.mb3 {
+	margin-bottom: 30px;
+}
+
+.mb5 {
+	margin-bottom: 50px;
+}
+
+
